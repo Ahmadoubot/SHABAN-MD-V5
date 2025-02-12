@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "https://github.com/MRSHABAN40/SHABAN-MD-V5",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -15,7 +15,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto like or react on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "✦sʜᴀʙᴀɴ-sᴏʙx-ᴍᴅ✦",
 // set the auto reply massage on status reply  
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "#",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "SHABAN-MD-V5",
 // add bot namw here for menu
